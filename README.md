@@ -8,8 +8,9 @@
    git clone https://github.com/juminsuh/Team5_NLP_Upstage.git
    ```
 2. Please download ```faiss_vectorstore``` folder from [google drive](https://drive.google.com/drive/u/0/folders/1XI0D3OtXREUscMaqnuW2oKZk7bM7KV6U). (😂 It might take a few minutes due to it's large size (i.e., 1.1GB))
-3. Make sure to set the ```faiss_vectorstore``` directory such as ➡️ ```./Team5_NLP_Upstage/faiss_vectorstore```
-4. Make `.env` file and set ```UPSTAGE_API_KEY="your_upstage_api_key"``` (The directory of your `.env` file is ```./Team5_NLP_Upstage/.env```)
+3. Unzip ```faiss_vectorstore```.
+4. Make sure to set the ```faiss_vectorstore``` directory such as ➡️ ```./Team5_NLP_Upstage/faiss_vectorstore```
+5. Make `.env` file and set ```UPSTAGE_API_KEY="your_upstage_api_key"``` (The directory of your `.env` file is ```./Team5_NLP_Upstage/.env```)
 
 
 
