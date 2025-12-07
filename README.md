@@ -5,7 +5,7 @@
 ---
 1. Clone this repository to your local.
    ```
-   git clone https://github.com/juminsuh/NLP_Upstage.git
+   git clone https://github.com/juminsuh/Team5_NLP_Upstage.git
    ```
 2. Please download ```faiss_vectorstore``` folder from [google drive](https://drive.google.com/drive/u/0/folders/1XI0D3OtXREUscMaqnuW2oKZk7bM7KV6U).
 3. Make sure to set the ```faiss_vectorstore``` directory such as ➡️ ```/home/users/Team5_NLP_Upstage/faiss_vectorstore```
