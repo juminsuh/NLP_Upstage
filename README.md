@@ -1,6 +1,12 @@
 # Team5_NLP_Upstage
 [25-2 NLP] Term Project. Enhancing a QA performance of LLM (Solar Pro 2) using RAG and Prompt engineering.
 
+### ✨Performance for 5_final.csv
+---
+- EWAH: 100% (25/25)
+- MMLU: 76% (19/25)
+- Total: 88% (44/50)
+
 ### 🛠️ Setting
 ---
 1. Clone this repository to your local.
