@@ -49,6 +49,35 @@ python run.py --data_path <your_testsets_directory>
 python score.py
 ```
 
+### 📚 Source
+---
+We utilized textbook and QA datasets from hugging face. 
+- law
+ 
+  https://huggingface.co/datasets/ymoslem/Law-StackExchange   
+  https://huggingface.co/datasets/reglab/barexam_qa
+
+- philosophy
+  
+  https://huggingface.co/datasets/burgerbee/philosophy_textbook
+  https://huggingface.co/datasets/burgerbee/religion_textbook
+  https://huggingface.co/datasets/sayhan/strix-philosophy-qa
+
+- business
+
+  https://huggingface.co/datasets/theoldmandthesea/17k_business_book
+  https://huggingface.co/datasets/warrencain/Business_Knowledge_Dataset_Llama_3.1_Short_Token_Pairs
+
+- history
+
+  https://huggingface.co/datasets/nielsprovos/world-history-1500-qa
+  https://huggingface.co/datasets/burgerbee/history_textbook
+
+- psychology
+
+  https://huggingface.co/datasets/BoltMonkey/psychology-question-answer
+  https://huggingface.co/datasets/burgerbee/psychology_textbook/viewer/default/train?row=99&views%5B%5D=train
+   
 
 
 
