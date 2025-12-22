@@ -7,13 +7,13 @@ from langchain_upstage import UpstageEmbeddings
 from langchain_upstage import ChatUpstage
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_path', type=str, default='./datasets/new_test.csv')
+parser.add_argument('--data_path', type=str, default='./datasets/testset.csv')
 args = parser.parse_args()
 
 def ewha(llm, query_embedding, prompt, n_votes):
 
     search_type = "mmr"
-    k = 5 # 
+    k = 5 
     lambda_mult = 0.3 
     fetch_k = 20 
     
@@ -39,8 +39,6 @@ def mmlu(llm, routed_result, query_embedding, prompt):
     ## hyperparameter
     search_type = "mmr"
     k = 8
-    # k=5
-    # lambda_mult = 0.2
     lambda_mult=0.3
     fetch_k = 20
     
@@ -65,7 +63,6 @@ def mmlu(llm, routed_result, query_embedding, prompt):
 def main(prompts):
 
     api_key = load_api_key()
-    # randomness_control()
     
     DOMAIN = {1: "ewha", 2: "law_2", 3: "history_first",
               4: "philosophy_first", 5: "psychology_3", 6: "business_3"}
@@ -120,7 +117,6 @@ if __name__ == "__main__":
 
     prompts, answers = read_data(args.data_path)
     responses, domains = main(prompts=prompts)
-    # print(f"📚 Domain: {domains}")
     
     data = {
         'question': prompts,
